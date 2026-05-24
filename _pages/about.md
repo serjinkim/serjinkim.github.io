@@ -30,6 +30,8 @@ I am interested in how **machine learning and financial markets transform each o
 
 At SNU, I was fortunate to be advised by [Prof. Sanghack Lee](https://www.sanghacklee.me) on causal machine learning and [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203) on corporate finance.
 
+<div style="clear: both;"></div>
+
 These are the questions I am thrilled about:
 
 **Emerging Technologies as Market Participants**  
