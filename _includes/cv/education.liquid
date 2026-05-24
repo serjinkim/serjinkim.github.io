@@ -26,30 +26,20 @@
             {% assign date = null %}
           {% endif %}
 
-          <table class="table-cv" style="width: 100%;">
-            <tbody>
-              <tr>
-                <td style="text-align: center;">
-                  {% if date %}
-                    <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
-                  {% endif %}
-                </td>
-              </tr>
-              {% capture location %}
-                {% if entry.location %}{{ entry.location }}{% endif %}
-              {% endcapture %}
-              {% if location != '' %}
-                <tr>
-                  <td style="text-align: center;">
-                    <p class="location">
-                      <i class="fa-solid fa-location-dot iconlocation"></i>
-                      {{ location }}
-                    </p>
-                  </td>
-                </tr>
-              {% endif %}
-            </tbody>
-          </table>
+          <div style="text-align: center;">
+            {% if date %}
+              <div><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span></div>
+            {% endif %}
+            {% capture location %}
+              {% if entry.location %}{{ entry.location }}{% endif %}
+            {% endcapture %}
+            {% if location != '' %}
+              <div class="location" style="margin-top: 4px;">
+                <i class="fa-solid fa-location-dot iconlocation"></i>
+                {{ location }}
+              </div>
+            {% endif %}
+          </div>
         </div>
         <div class="col-xs-10 col-sm-10 col-md-10 mt-2 mt-md-0">
           {% capture study_type %}
