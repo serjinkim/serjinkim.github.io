@@ -24,7 +24,7 @@ latest_posts:
   limit: 3
 ---
 
-Hi! I am **Serjin Kim**, a Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/).
+Hi! I am **Serjin Kim**, a Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/). Before MIT, I was an economics student at [Seoul National University (SNU)](https://en.snu.ac.kr/).
 
 I am interested in how **machine learning and financial markets transform each other** in two directions: (i) how emerging technologies (AI-driven investment systems, stablecoins, and digital financial infrastructure) reshape information structure and price discovery, and (ii) how modern causal methods can rigorously analyze the increasingly complex financial markets that result.
 
