@@ -5,7 +5,8 @@ layout: default
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
-        <span class="font-weight-bold">{{ site.first_name }}</span> {{ site.middle_name }}
+        {{ site.first_name }}
+        {{ site.middle_name }}
         {{ site.last_name }}
       {% else %}
         {{ site.title }}
@@ -18,7 +19,7 @@ layout: default
     {% if page.profile %}
       <div class="row">
         {% if page.profile.align == 'left' %}
-          <div class="col-sm-auto" style="padding-right: 2rem;">
+          <div class="col-sm-4" style="padding-right: 2rem; min-width: 260px; max-width: 320px;">
             <div class="profile">
               {% if page.profile.image %}
                 {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
