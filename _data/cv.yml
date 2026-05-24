@@ -55,7 +55,6 @@ cv:
 
     Skills:
       - name: Programming & Tools
-        icon: fa-solid fa-code
         keywords:
           - Python
           - R
