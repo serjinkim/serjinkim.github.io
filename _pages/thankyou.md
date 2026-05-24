@@ -28,8 +28,8 @@ nav_order: 5
             class="btn btn-link p-0 mt-2 text-decoration-none"
             style="font-size: 0.8rem; color: var(--global-text-color-light);"
             type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#{{ collapse_id }}"
+            data-toggle="collapse"
+            data-target="#{{ collapse_id }}"
             aria-expanded="false"
           >
             <span class="show-text">read more ▾</span>
