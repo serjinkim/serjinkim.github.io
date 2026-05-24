@@ -13,7 +13,7 @@ profile:
     <p>100 Main St, Cambridge, MA 02142</p>
     <p>United States</p>
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
