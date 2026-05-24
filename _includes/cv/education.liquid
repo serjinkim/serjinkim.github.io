@@ -26,10 +26,10 @@
             {% assign date = null %}
           {% endif %}
 
-          <table class="table-cv">
+          <table class="table-cv" style="width: 100%;">
             <tbody>
               <tr>
-                <td>
+                <td style="text-align: center;">
                   {% if date %}
                     <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
                   {% endif %}
@@ -40,7 +40,7 @@
               {% endcapture %}
               {% if location != '' %}
                 <tr>
-                  <td>
+                  <td style="text-align: center;">
                     <p class="location">
                       <i class="fa-solid fa-location-dot iconlocation"></i>
                       {{ location }}
