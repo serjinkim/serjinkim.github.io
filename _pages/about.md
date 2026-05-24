@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://mitsloan.mit.edu/'>MIT Sloan School of Management</a> · Master's Student in Finance
+subtitle:
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
 
 Hi! I am **Serjin Kim**, a Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/).
 
-I am interested in how **machine learning and financial markets transform each other** — in two directions: (i) how emerging technologies (AI-driven investment systems, stablecoins, and digital financial infrastructure) reshape information structure and price discovery, and (ii) how modern causal methods can rigorously analyze the increasingly complex financial markets that result.
+I am interested in how **machine learning and financial markets transform each other** in two directions: (i) how emerging technologies (AI-driven investment systems, stablecoins, and digital financial infrastructure) reshape information structure and price discovery, and (ii) how modern causal methods can rigorously analyze the increasingly complex financial markets that result.
 
 At SNU, I was fortunate to be advised by [Prof. Sanghack Lee](https://www.sanghacklee.me) on causal machine learning and [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203) on corporate finance.
 
