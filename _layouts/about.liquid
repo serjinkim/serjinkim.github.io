@@ -19,7 +19,7 @@ layout: default
     {% if page.profile %}
       <div class="row">
         {% if page.profile.align == 'left' %}
-          <div class="col-sm-4" style="padding-right: 2rem; min-width: 260px; max-width: 320px;">
+          <div style="flex: 0 0 auto; width: 300px; padding-right: 2rem;">
             <div class="profile">
               {% if page.profile.image %}
                 {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
