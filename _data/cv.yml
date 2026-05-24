@@ -19,18 +19,14 @@ cv:
       - institution: MIT Sloan School of Management
         location: Cambridge, MA
         url: https://mitsloan.mit.edu/
-        area: Financial Mathematics
         studyType: Master of Finance
         start_date: 2026
         end_date: 2028
-        highlights:
-          - "Concentration in Financial Mathematics"
 
       - institution: Seoul National University
         location: Seoul, South Korea
         url: https://www.snu.ac.kr/
-        area: Economics (Combined Minor in Financial Economics)
-        studyType: B.A.
+        studyType: "B.A. in Economics (Minor in Financial Economics)"
         start_date: 2022
         end_date: 2026
         highlights:
