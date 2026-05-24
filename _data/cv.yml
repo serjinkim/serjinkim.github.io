@@ -59,9 +59,13 @@ cv:
 
     Skills:
       - name: Programming & Tools
-        level: ""
         icon: fa-solid fa-code
-        keywords: "Python, R, MATLAB, Stata, LaTeX"
+        keywords:
+          - Python
+          - R
+          - MATLAB
+          - Stata
+          - LaTeX
 
     Languages:
       - name: Korean
