@@ -3,8 +3,7 @@ cv_pdf: /assets/pdf/Serjin_Kim_CV.pdf
 email: serjin@mit.edu
 github_username: serjinkim
 linkedin_username: serjin-kim
-rss_icon: true
 custom_social:
   logo: https://ssrn.com/favicon.ico
   title: SSRN
-  url: https://ssrn.com/author=11715669
+  url: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=11715669

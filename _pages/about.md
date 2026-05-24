@@ -9,9 +9,6 @@ profile:
   image: prof_pic.jpg
   image_circular: false
   more_info: >
-    <p>MIT Sloan School of Management</p>
-    <p>100 Main St, Cambridge, MA 02142</p>
-    <p>United States</p>
     <p><a href="mailto:serjin@mit.edu">serjin@mit.edu</a></p>
     <p><a href="mailto:usalyha@snu.ac.kr">usalyha@snu.ac.kr</a></p>
     <p><a href="mailto:usalyha@gmail.com">usalyha@gmail.com</a></p>
