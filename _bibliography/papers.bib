@@ -6,7 +6,7 @@
   title       = {OPERA-S: Deterministic Tail Safety in Ensemble Off-Policy Evaluation},
   author      = {Kim, Hyunwoo and Han, Gyeongchan and Kim, Bogeun and Kim, Serjin and Cho, Sangyeon and Ham, Junha and Shin, Jaehyeok and Lee†, Sanghack},
   year        = {2026},
-  note        = {Under Submission, NeurIPS 2026},
+  note        = {Under Review, NeurIPS 2026},
   annotation  = {† Corresponding author.},
   code        = {https://github.com/HyunwooKim99/RobustOPE},
   abstract    = {Off-policy evaluation (OPE) estimates a candidate policy's value from data collected under a different policy. Ensemble methods like OPERA re-weight a pool of base estimators via affine-hull weights minimizing a bootstrap MSE estimate. However, affine-hull weights can produce ensembles strictly worse than every base estimator — a failure mode we call the catastrophic regime. We propose OPERA-S, which constrains weights to the probability simplex and pairs the bootstrap objective with a soft adversary on the unknown policy value. The combined minimax problem reduces to a convex quadratic program with a single regularizer, providing a drop-in replacement for OPERA. We prove that the simplex constraint deterministically eliminates the catastrophic regime, enabling pool-curation-free deployment with heterogeneous estimator pools. Furthermore, it ensures that every monotone tail functional of OPERA-S's MSE distribution is no larger than that of the per-condition worst-base envelope. Across three benchmarks spanning bandits and offline reinforcement learning, OPERA-S delivers the strongest gains on tail metrics, with competitive mean-MSE performance.},
