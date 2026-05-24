@@ -1,12 +1,8 @@
 cv:
   name: Serjin Kim
-  label: Master's Student in Finance
   email: "serjin@mit.edu · usalyha@snu.ac.kr · usalyha@gmail.com"
   location: Cambridge, MA
   image: ""
-  summary: >
-    Master's student at MIT Sloan School of Management with research interests in
-    computational finance, causal machine learning, and monetary economics.
 
   social_networks:
     - network: LinkedIn
