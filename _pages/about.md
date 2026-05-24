@@ -39,5 +39,3 @@ These are the questions I am thrilled about:
 **Causal Methods for Financial Econometrics**  
 ∘ Can transformer-based models learn structural causal patterns without explicit supervision?  
 ∘ How can off-policy evaluation be deployed robustly in real financial decision-making settings?
-
-Feel free to check out my [publications](/publications/) and [projects](/projects/).
