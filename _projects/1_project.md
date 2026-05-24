@@ -18,8 +18,8 @@ To address data imbalance, we employed matched case-control sampling (1:1 and 1:
 - Most important executive features: gender, bonus, option grants, age, and tenure
 - Most important firm features: profitability metrics (income before extraordinary items, pre-tax income), followed by capital expenditure and receivables
 - Post-financial crisis shift: firms place greater weight on financial soundness (debt-to-assets, quick ratio) over short-term profitability
-- CEOs with low firm profitability but high compensation face *higher* firing risk
+- CEOs with low firm profitability but high compensation face _higher_ firing risk
 
 The model was applied to Samsung (0.6654, high-risk), Meritz Securities (0.1219, low-risk), and Hyundai (0.3501, medium-risk) as real-world demonstrations.
 
-*Team project for Data Mining Labs and Methods, Seoul National University (June 2025). Co-authored with Sungwon Ryu and Jihee Lee.*
+_Team project for Data Mining Labs and Methods, Seoul National University (June 2025). Co-authored with Sungwon Ryu and Jihee Lee._

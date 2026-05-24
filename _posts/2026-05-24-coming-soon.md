@@ -22,4 +22,4 @@ I will report back. Hopefully with good news.
 
 ---
 
-*The blog proper — thoughts on finance, math, and whatever else — is on its way. Stay tuned.*
+_The blog proper — thoughts on finance, math, and whatever else — is on its way. Stay tuned._
