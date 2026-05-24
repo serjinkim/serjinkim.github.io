@@ -1,34 +1,29 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"ham":
+  - firstname: ["Junha", "J."]
+    url: https://www.linkedin.com/in/%EC%A4%80%ED%95%98-%ED%95%A8-a86633247
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"kim":
+  - firstname: ["Doeun", "D."]
+    url: https://www.linkedin.com/in/doeun-kim-5389a1283
+  - firstname: ["Deokgyu", "Deokdyu"]
+    url: https://www.linkedin.com/in/%EB%8D%95%EA%B7%9C-%EA%B9%80-5962902bb
+  - firstname: ["Hyunwoo", "H."]
+    url:
+  - firstname: ["Bogeun", "B."]
+    url: https://bogeun.pages.dev
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"han":
+  - firstname: ["Gyeongchan", "G."]
+    url:
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"cho":
+  - firstname: ["Sangyeon", "S."]
+    url: https://www.linkedin.com/in/sangyeon-cho-5570682a3
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"shin":
+  - firstname: ["Jaehyeok", "J."]
+    url: https://www.linkedin.com/in/jaehyeok-shin-702816140/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
-
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
-
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
-
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"lee":
+  - firstname: ["Sanghack", "S."]
+    url: https://www.sanghacklee.me

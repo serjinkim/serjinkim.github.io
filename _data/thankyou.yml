@@ -1,0 +1,25 @@
+people:
+  - name: Sanghack Lee
+    url: https://www.sanghacklee.me
+    role: Professor, Seoul National University
+    message: >
+      I spent a year in Professor Lee's lab working on causal machine learning, and it was one of the most
+      formative experiences of my academic life. His patience in guiding a student who came in knowing very
+      little, and his genuine investment in how I think rather than just what I produce, shaped the way I
+      approach research problems. I am deeply grateful.
+
+  - name: Jaewon Choi
+    url: https://sites.google.com/site/jaewchoi1203
+    role: Professor, Seoul National University
+    message: >
+      Over two years, Professor Choi guided me through my work on ATM offerings with remarkable generosity
+      and rigor. He taught me how to build an argument from the data up, and how to ask the kinds of
+      questions that are worth asking. The hidden costs project would not exist without his mentorship.
+
+  - name: David Schoenherr
+    url: https://sites.google.com/site/davidschoenherr
+    role: Professor, Seoul National University
+    message: >
+      Professor Schoenherr offered something that is rare and hard to quantify: genuine support. His
+      encouragement through the graduate school process and his honest engagement with my academic ambitions
+      gave me the confidence to pursue this path. I am truly thankful.
