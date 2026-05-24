@@ -25,7 +25,7 @@ cv:
 
       - institution: Seoul National University
         location: Seoul, South Korea
-        url: https://www.snu.ac.kr/
+        url: https://en.snu.ac.kr/
         studyType: "B.A. in Economics (Minor in Financial Economics)"
         start_date: 2022
         end_date: 2026
@@ -34,6 +34,7 @@ cv:
 
       - institution: Korean Minjok Leadership Academy
         location: Hoengseong, South Korea
+        url: http://english.minjok.hs.kr/contents/main.php
         studyType: High School Diploma
         start_date: 2019
         end_date: 2022
