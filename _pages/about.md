@@ -26,14 +26,14 @@ latest_posts:
 
 Hi! I am **Serjin Kim**, a Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/). Before MIT, I was an economics student at [Seoul National University (SNU)](https://en.snu.ac.kr/).
 
-I am interested in how **machine learning and financial markets transform each other** in two directions: (i) how emerging technologies (AI-driven investment systems, stablecoins, and digital financial infrastructure) reshape information structure and price discovery, and (ii) how modern causal methods can rigorously analyze the increasingly complex financial markets that result.
+I am interested in how **machine learning and financial markets transform each other** in two directions: (i) how emerging technologies (e.g., AI, robo-advising, stablecoins, blockchain) reshape information structure and price discovery, and (ii) how modern causal methods can rigorously analyze the increasingly complex financial markets that result.
 
 At SNU, I was fortunate to be advised by [Prof. Sanghack Lee](https://www.sanghacklee.me) on causal machine learning and [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203) on corporate finance.
 
 These are the questions I am thrilled about:
 
 **Emerging Technologies as Market Participants**  
-∘ How do AI-driven investment systems and digital financial infrastructure affect price discovery and market information efficiency?  
+∘ How do emerging technologies (e.g., AI, robo-advising, stablecoins, blockchain) affect price discovery and market information efficiency?  
 ∘ Does homogenization of investor behavior through shared AI systems create new forms of systemic risk?
 
 **Causal Methods for Financial Econometrics**  
