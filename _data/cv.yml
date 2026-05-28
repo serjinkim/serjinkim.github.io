@@ -18,6 +18,8 @@ cv:
         studyType: Master of Finance
         start_date: 2026
         end_date: 2028
+        highlights:
+          - "Dean's Fellowship Recipient"
 
       - institution: Seoul National University
         location: Seoul, South Korea
