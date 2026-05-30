@@ -10,15 +10,11 @@ thumbnail: assets/img/blog/driving_test.jpg
 
 This blog is coming soon.
 
-In the meantime, I'll be spending my intellectual energy on a far more pressing matter: my Korean driving test, scheduled for this Tuesday, May 26th.
+In the meantime, I signed up for the Korean written driving test, fully convinced that one day of studying was more than enough. The passing score is 60 out of 100. I have a bachelor's degree.
 
-The passing score is 60 out of 100. Sixty. That means I can get **40% of the questions wrong** and still walk out with a license. By any reasonable academic standard, this should be well within reach.
+It turns out I cannot tell a dotted line from a solid line. I rescheduled.
 
-And yet.
-
-There is something uniquely humbling about sitting in a room full of teenagers, sweating over whether a pedestrian has right-of-way at a zebra crossing with a blinking yellow light, while holding degrees in economics.
-
-I will report back. Hopefully with good news.
+I will report back.
 
 ---
 
