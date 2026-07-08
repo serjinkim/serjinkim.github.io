@@ -1,5 +1,7 @@
 # Social media links for Serjin Kim
-cv_pdf: /assets/pdf/Serjin_Kim_CV.pdf
+
+# TO ACTIVATE CV: uncomment the line below + set cv_pdf in _pages/cv.md to the same path
+# cv_pdf: /assets/pdf/Serjin_Kim_CV.pdf
 email: serjin@mit.edu
 github_username: serjinkim
 linkedin_username: serjin-kim
