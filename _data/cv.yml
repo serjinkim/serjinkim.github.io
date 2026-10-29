@@ -19,7 +19,7 @@ cv:
         start_date: 2026
         end_date: 2028
         highlights:
-          - "Merit-based Dean's Scholarship Recipient · GPA: 5.00/5.00"
+          - "Merit-based Dean's Scholarship Recipient"
         details:
           - "**Courses:** Reinforcement Learning (PhD), Statistical Learning Theory and Application (PhD), Asset Pricing (PhD), Advanced Mathematical Methods for Financial Engineering, Corporate Finance, Financial Markets"
           - "**Activities:** AI/ML Club, Investment Management Club, Sloan Korea Club"
@@ -31,7 +31,7 @@ cv:
         start_date: 2022
         end_date: 2026
         highlights:
-          - "Summa Cum Laude · GPA: 3.91/4.00 · Merit-based Scholarship Recipient for 4 consecutive years"
+          - "Summa Cum Laude"
         details:
           - "**Courses:** Causal Inference (PhD), Econometrics (PhD), Causal ML/DL Seminar (PhD), Applied Microeconomics (PhD), Monetary Finance (PhD), Stochastic Differential Equations, Mathematical Analysis, ODE, Data Mining"
           - "**Activities:** Student Ambassador, Macroeconomics Club (Session Leader), Tennis Club"
