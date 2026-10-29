@@ -30,7 +30,9 @@
           {% endif %}
 
           <div style="text-align: center;">
-            <div><span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span></div>
+            <div>
+              <span class="badge font-weight-bold danger-color-dark text-uppercase align-middle" style="min-width: 75px">{{ date }}</span>
+            </div>
             {% capture location %}
               {% if entry.location %}{{ entry.location }}{% endif %}
             {% endcapture %}

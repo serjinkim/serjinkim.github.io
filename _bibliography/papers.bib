@@ -1,14 +1,26 @@
 ---
 ---
 
+@misc{jointcfm,
+  title       = {Amortized Joint Posterior Inference for Various Causal Queries via Prior-Data Fitted Networks},
+  author      = {Ham*, Junha and Kim*, Deokgyu and Kim*, Doeun and Kim*, Serjin and Lee†, Sanghack},
+  year        = {2026},
+  note        = {Under Review},
+  annotation  = {* Equal contribution. † Corresponding author.},
+  abstract    = {Prior-data fitted networks (PFNs) are transformers pre-trained to approximate posterior predictive distributions under a task prior. Their causal extensions estimate treatment effects from observational data without task-specific retraining. However, existing approaches typically restrict inference to predefined causal quantities, such as treatment effects or outcomes under treatment and control. In particular, they do not capture posterior dependence between the control and treatment conditional expected potential outcomes, limiting users' ability to ask causal queries involving expected outcomes, treatment effects, and their relationships. Moreover, interval coverage alone does not establish posterior accuracy. To address these gaps, we introduce JointCFM, which integrates the flexibility of Bayesian joint posterior inference into PFNs, jointly capturing the epistemic uncertainty and posterior dependence of the control and treatment conditional expected potential outcomes pair. This enables users to answer various causal queries chosen at inference time from a single posterior without additional model fitting. Using simulation-based calibration, we test necessary calibration conditions for the marginals and posterior dependence, including within prespecified input groups. Under the task prior, experiments support calibration of tested quantities and demonstrate benefits of preserving posterior dependence. On semi-synthetic benchmarks, JointCFM is competitive in probabilistic prediction of conditional average treatment effects.},
+  preview     = {jointcfm.png},
+  selected    = {false},
+  bibtex_show = {true},
+}
+
 @misc{operas2026,
-  title       = {OPERA-S: Deterministic Tail Safety in Ensemble Off-Policy Evaluation},
+  title       = {OPERA-S: Preventing Error Amplification in Ensemble Off-Policy Evaluation},
   author      = {Kim, Hyunwoo and Han, Gyeongchan and Kim, Bogeun and Kim, Serjin and Cho, Sangyeon and Ham, Junha and Shin, Jaehyeok and Lee†, Sanghack},
   year        = {2026},
-  note        = {Under Review, NeurIPS 2026},
+  note        = {Under Review},
   annotation  = {† Corresponding author.},
   code        = {https://github.com/HyunwooKim99/RobustOPE},
-  abstract    = {Off-policy evaluation (OPE) estimates a candidate policy's value from data collected under a different policy. Ensemble methods like OPERA re-weight a pool of base estimators via affine-hull weights minimizing a bootstrap MSE estimate. However, affine-hull weights can produce ensembles strictly worse than every base estimator — a failure mode we call the catastrophic regime. We propose OPERA-S, which constrains weights to the probability simplex and pairs the bootstrap objective with a soft adversary on the unknown policy value. The combined minimax problem reduces to a convex quadratic program with a single regularizer, providing a drop-in replacement for OPERA. We prove that the simplex constraint deterministically eliminates the catastrophic regime, enabling pool-curation-free deployment with heterogeneous estimator pools. Furthermore, it ensures that every monotone tail functional of OPERA-S's MSE distribution is no larger than that of the per-condition worst-base envelope. Across three benchmarks spanning bandits and offline reinforcement learning, OPERA-S delivers the strongest gains on tail metrics, with competitive mean-MSE performance.},
+  abstract    = {Off-policy evaluation (OPE) estimates a target policy's value from data collected by another policy. Weighting a pool of estimators can improve reliability, but allowing negative weights can amplify errors and produce an estimate worse than every member of the pool. We propose OPERA-S, which filters the estimator pool and learns simplex weights by minimizing the squared deviations of combined bootstrap estimates from a robust estimate of the policy value. The resulting optimization is a convex quadratic program. The simplex constraint guarantees that, on every dataset, the ensemble's squared error is no greater than the largest squared error among its base estimators. For bounded estimator outputs, we bound the ensemble's expected squared error under bootstrap resampling relative to the best convex combination of the filtered estimators. Experiments on contextual bandits, tabular reinforcement learning (RL), and D4RL continuous-control tasks demonstrate the effectiveness of OPERA-S in improving the accuracy and reliability of OPE.},
   preview     = {operas2026.png},
   selected    = {false},
   bibtex_show = {true},

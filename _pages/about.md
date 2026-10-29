@@ -24,18 +24,10 @@ latest_posts:
   limit: 3
 ---
 
-Hi! I am **Serjin Kim**, an incoming Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/). Before MIT, I studied economics at [Seoul National University (SNU)](https://en.snu.ac.kr/).
+Hi! I am **Serjin Kim**, a first-year Master's student in Finance at [MIT Sloan School of Management](https://mitsloan.mit.edu/). Before MIT, I studied economics at [Seoul National University (SNU)](https://en.snu.ac.kr/). At SNU, I was fortunate to be advised by [Prof. Sanghack Lee](https://www.sanghacklee.me) on causal machine learning and [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203) on corporate finance.
 
-I am interested in **how emerging technologies and financial markets reshape each other**. My work is grounded in rigorous economic theory, and I try to bring that foundation to questions traditional finance is only beginning to ask — how AI and robo-advising change price discovery, what stablecoins and blockchain do to intermediation, and what risks emerge as markets grow more algorithmically driven.
+I consider myself both an econ and a tech person, and I'm fascinated by how the two shape and advance each other. My research interests center on financial markets, from using econometrics and modern machine learning/deep learning to understand them to exploring how emerging technologies reshape their dynamics.
 
-At SNU, I was fortunate to be advised by [Prof. Sanghack Lee](https://www.sanghacklee.me) on causal machine learning and [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203) on corporate finance.
+Outside of research, I enjoy baking, exploring art exhibitions, and playing tennis. I'm also a competitive kendo athlete.
 
-These are the questions I am thrilled about:
-
-**Emerging Technologies as Market Participants**  
-∘ How do emerging technologies (e.g., AI, robo-advising, stablecoins, blockchain) affect price discovery and market information efficiency?  
-∘ Does homogenization of investor behavior through shared AI systems create new forms of systemic risk?
-
-**Causal Methods for Financial Econometrics**  
-∘ Can transformer-based models learn structural causal patterns without explicit supervision?  
-∘ How can off-policy evaluation be deployed robustly in real financial decision-making settings?
+I'm always exploring new research questions and directions, and I love exchanging ideas. I'm always up for a coffee! Feel free to reach out at [serjin@mit.edu](mailto:serjin@mit.edu).
