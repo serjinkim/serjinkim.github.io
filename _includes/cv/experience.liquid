@@ -1,7 +1,7 @@
 {% comment %}
   Unified work/experience entry renderer for both RenderCV and JSONResume formats
   Handles both:
-  - RenderCV: company, position, start_date, end_date, location, url, summary, highlights
+  - RenderCV: company, position, start_date, end_date (or date), location, url, summary, highlights
   - JSONResume: name, position, startDate, endDate, location, url, summary, highlights
 {% endcomment %}
 
@@ -17,7 +17,10 @@
             {% if entry.end_date %}{{ entry.end_date }}{% elsif entry.endDate %}{{ entry.endDate }}{% endif %}
           {% endcapture %}
 
-          {% if start_date != '' %}
+          {% comment %} A free-form date (e.g. "Fall 2024") overrides start/end dates {% endcomment %}
+          {% if entry.date %}
+            {% assign date = entry.date %}
+          {% elsif start_date != '' %}
             {% assign startDate = start_date | split: '-' | first %}
             {% assign endDate = end_date | split: '-' | first | default: 'Present' %}
             {% if startDate == endDate %}

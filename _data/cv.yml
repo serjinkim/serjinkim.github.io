@@ -19,7 +19,10 @@ cv:
         start_date: 2026
         end_date: 2028
         highlights:
-          - "Dean's Fellowship Recipient"
+          - "Merit-based Dean's Scholarship Recipient · GPA: 5.00/5.00"
+        details:
+          - "**Courses:** Reinforcement Learning (PhD), Statistical Learning Theory and Application (PhD), Asset Pricing (PhD), Advanced Mathematical Methods for Financial Engineering, Corporate Finance, Financial Markets"
+          - "**Activities:** AI/ML Club, Investment Management Club, Sloan Korea Club"
 
       - institution: Seoul National University
         location: Seoul, South Korea
@@ -28,7 +31,10 @@ cv:
         start_date: 2022
         end_date: 2026
         highlights:
-          - "Summa Cum Laude"
+          - "Summa Cum Laude · GPA: 3.91/4.00 · Merit-based Scholarship Recipient for 4 consecutive years"
+        details:
+          - "**Courses:** Causal Inference (PhD), Econometrics (PhD), Causal ML/DL Seminar (PhD), Applied Microeconomics (PhD), Monetary Finance (PhD), Stochastic Differential Equations, Mathematical Analysis, ODE, Data Mining"
+          - "**Activities:** Student Ambassador, Macroeconomics Club (Session Leader), Tennis Club"
 
       - institution: Korean Minjok Leadership Academy
         location: Hoengseong, South Korea
@@ -39,18 +45,38 @@ cv:
         highlights:
           - "Salutatorian (Humanities Division)"
 
-    Experience:
+    Research Experience:
+      - company: Causality Lab, SNU Graduate School of Data Science
+        position: Undergraduate Researcher
+        location: Seoul, South Korea
+        start_date: 2025
+        end_date: 2026
+        summary: "Advisor: [Prof. Sanghack Lee](https://www.sanghacklee.me)"
+
+      - company: AFINIT Industry-Academia Collaboration
+        position: Undergraduate Researcher
+        location: Seoul, South Korea
+        url: https://www.afinit.com
+        start_date: 2025
+        end_date: 2026
+
+      - company: SNU Undergraduate Research Fellowship Program
+        position: Independent Researcher
+        location: Seoul, South Korea
+        start_date: 2024
+        end_date: 2026
+        summary: "Advisor: [Prof. Jaewon Choi](https://sites.google.com/site/jaewchoi1203)"
+
+    Professional Experience:
       - company: Kasa Singapore
         position: Investment Team Intern
         location: Singapore, Singapore
-        start_date: 2024-06
-        end_date: 2024-12
+        date: Fall 2024
 
       - company: Meritz Securities
         position: Macro Research Intern
         location: Seoul, South Korea
-        start_date: 2023-07
-        end_date: 2023-08
+        date: Summer 2023
 
     Skills:
       - name: Programming & Tools

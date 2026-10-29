@@ -1,7 +1,7 @@
 {% comment %}
   Unified education entry renderer for both RenderCV and JSONResume formats
   Handles both:
-  - RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights
+  - RenderCV: institution, area, studyType (or degree), start_date, end_date, location, courses, highlights, details
   - JSONResume: institution, area, studyType, startDate, endDate, location, courses, highlights
 {% endcomment %}
 
@@ -64,7 +64,7 @@
             <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ entry.area }}</h6>
           {% endif %}
 
-          {% if entry.courses or entry.highlights %}
+          {% if entry.courses or entry.highlights or entry.details %}
             <ul class="items">
               {% for item in entry.courses %}
                 <li>
@@ -76,6 +76,26 @@
                   <span class="item" style="font-size: 0.8rem;">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</span>
                 </li>
               {% endfor %}
+              {% comment %} details: collapsed by default behind a small toggle {% endcomment %}
+              {% if entry.details %}
+                {% assign details_id = entry.institution | slugify | append: '-details' %}
+                <li style="list-style: none;">
+                  <a
+                    class="cv-details-toggle"
+                    href="#{{ details_id }}"
+                    role="button"
+                    data-toggle="collapse"
+                    aria-expanded="false"
+                    aria-controls="{{ details_id }}"
+                    >courses &amp; activities <span class="caret">▾</span></a
+                  >
+                  <div class="collapse" id="{{ details_id }}">
+                    {% for item in entry.details %}
+                      <div class="item" style="font-size: 0.8rem;">{{ item | markdownify | remove: '<p>' | remove: '</p>' }}</div>
+                    {% endfor %}
+                  </div>
+                </li>
+              {% endif %}
             </ul>
           {% endif %}
         </div>

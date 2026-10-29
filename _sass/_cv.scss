@@ -68,6 +68,26 @@ table.institution {
   margin-bottom: 1rem;
 }
 
+a.cv-details-toggle {
+  font-size: 0.8rem;
+  color: var(--global-text-color-light);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--global-theme-color);
+    text-decoration: none;
+  }
+
+  .caret {
+    display: inline-block;
+    transition: transform 0.2s ease;
+  }
+
+  &[aria-expanded="true"] .caret {
+    transform: rotate(180deg);
+  }
+}
+
 td.department {
   font-size: 0.8rem;
 }
