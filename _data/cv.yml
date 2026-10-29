@@ -31,7 +31,7 @@ cv:
         start_date: 2022
         end_date: 2026
         highlights:
-          - "Summa Cum Laude"
+          - "Summa Cum Laude · Merit-based Scholarship Recipient for 4 consecutive years"
         details:
           - "**Courses:** Causal Inference (PhD), Econometrics (PhD), Causal ML/DL Seminar (PhD), Applied Microeconomics (PhD), Monetary Finance (PhD), Stochastic Differential Equations, Mathematical Analysis, ODE, Data Mining"
           - "**Activities:** Student Ambassador, Macroeconomics Club (Session Leader), Tennis Club"
@@ -53,10 +53,9 @@ cv:
         end_date: 2026
         summary: "Advisor: [Prof. Sanghack Lee](https://www.sanghacklee.me)"
 
-      - company: AFINIT Industry-Academia Collaboration
+      - company: "[AFINIT](https://www.afinit.com) Industry-Academia Collaboration"
         position: Undergraduate Researcher
         location: Seoul, South Korea
-        url: https://www.afinit.com
         start_date: 2025
         end_date: 2026
 
